@@ -1,14 +1,22 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+/*content color = #eae7d2*/
+/*topbar color = #51473d*/
+/*tmenu normal color = #797066*/
+/*tmenu nmouseover color = #9c9084*/
+/*container color = #51473d*/
+/*text color = #797066*/
+
 
 #container
 {
     margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
     width: 1200px; height:auto;
-    background-color:#99CC00;
+    background-color:#51473d;
 }
 
 #topbar
 {
+    color:#51473d;
     float:right;
 }
 
@@ -19,23 +27,22 @@
 
 #content
 {
-    
+    color:#797066;
 }
 
 #maincontent
 {
     float:left;
-    
 }
 
 #subcontent
 {
-    
+    color:#797066;
 }
 
 #bottomcontent
 {
-    
+    color:#FFFFFF;
 }
 
 /*skip navigation till bild*/
@@ -65,14 +72,23 @@ display:inline;
 
 ul li a:link,a:visited
 {
-color:#FFFFFF;
-background-color:#000000;
+font-family:"Verdana";
+color:#eae7d2;
+background-color:#797066;
 text-align:center;
 padding:6px;
 text-decoration:none;
-text-transform:uppercase;
 }
 ul li a:hover,a:active
 {
-background-color:#7A991A;
+background-color:#9c9084;
+}
+
+.active
+{
+    color:#51473d;
+    background-color:#eae7d2;
+    text-align:center;
+    padding:6px;
+    text-decoration:none;
 }
