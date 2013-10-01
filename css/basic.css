@@ -16,11 +16,12 @@
 
 #topbar
 {
-    Verdana,sans-serif;
+    font-family:Verdana;
     font-style:oblique;
-    font-size:12px;
+    font-size:10px;
     color:#eae7d2;
     float:right;
+    padding:4px;
 }
 
 #menu
@@ -31,6 +32,7 @@
 #content
 {
     color:#797066;
+    background-color:#eae7d2;
 }
 
 #maincontent
@@ -38,21 +40,21 @@
     font-family:sans-serif;
     font-size:15px;
     text-align:left;
-    background-color:#eae7d2;
-    width:250px; height:auto;
+    width:320px; height:auto;
     float:left;
+    margin-left:10px;
     border-right:1px dashed #797066;
+    padding-right:8px;
 }
 
 #subcontent
 {
     font-family:sans-serif;
-    font-size:14px;
+    font-size:13px;
     float:left;
     width:240px;
     height:auto;
-    margin-left:20px;
-    background-color:#eae7d2;
+    margin-left:10px;
     color:#797066;
 }
 
@@ -61,13 +63,15 @@
     font-family:sans-serif;
     font-size:12px;
     clear:both;
-    background-color:#eae7d2;
     color:#797066;
+    margin-left:10px;
+    margin-bottom:20px;
 }
 
 /*skip navigation till bild*/
 [href = "#maincontent"]
 {
+    font-size:0;
     display: block;
     background-position:center;
     background-repeat:no-repeat;
@@ -83,14 +87,27 @@ ul
 list-style-type:none;
 margin:0;
 padding:0;
-padding-top:6px;
-padding-bottom:6px;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+padding-bottom:4px;
+margin-left:20px;
 }
 li
 {
 display:inline;
 }
 
+h1
+{
+    font-family:serif;   
+}
+
+h2
+{
+    font-family:serif;
+    font-size:14px;
+}
 
 #menu ul li a:link,a:visited
 {
@@ -98,12 +115,17 @@ display:inline;
     color:#eae7d2;
     background-color:#797066;
     text-align:center;
-    padding:6px;
+    padding:6px 6px 6px 6px;
     text-decoration:none;
 }
 #menu ul li a:hover,a:active
 {
     background-color:#9c9084;
+}
+
+#menu a
+{
+    font-size:14px;
 }
 
 .active a
@@ -113,6 +135,11 @@ display:inline;
     text-align:center;
     padding:6px;
     text-decoration:none;
+}
+#subcontent a
+{
+    color:#51473d;
+    font-size:14px;
 }
 
 div img 
