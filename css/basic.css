@@ -10,13 +10,16 @@
 #container
 {
     margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
-    width: 1200px; height:auto;
+    width: 600px; height:auto;
     background-color:#51473d;
 }
 
 #topbar
 {
-    color:#51473d;
+    Verdana,sans-serif;
+    font-style:oblique;
+    font-size:12px;
+    color:#eae7d2;
     float:right;
 }
 
@@ -32,17 +35,34 @@
 
 #maincontent
 {
+    font-family:sans-serif;
+    font-size:15px;
+    text-align:left;
+    background-color:#eae7d2;
+    width:250px; height:auto;
     float:left;
+    border-right:1px dashed #797066;
 }
 
 #subcontent
 {
+    font-family:sans-serif;
+    font-size:14px;
+    float:left;
+    width:240px;
+    height:auto;
+    margin-left:20px;
+    background-color:#eae7d2;
     color:#797066;
 }
 
 #bottomcontent
 {
-    color:#FFFFFF;
+    font-family:sans-serif;
+    font-size:12px;
+    clear:both;
+    background-color:#eae7d2;
+    color:#797066;
 }
 
 /*skip navigation till bild*/
@@ -54,6 +74,7 @@
     height:200px;
     width:600px;
     background:url('pics/coffey.jpg');
+    margin-bottom:5px;
 }
 
 /*Menu som är horisontel*/
@@ -70,25 +91,32 @@ li
 display:inline;
 }
 
-ul li a:link,a:visited
+
+#menu ul li a:link,a:visited
 {
-font-family:"Verdana";
-color:#eae7d2;
-background-color:#797066;
-text-align:center;
-padding:6px;
-text-decoration:none;
+    font-family:"Verdana";
+    color:#eae7d2;
+    background-color:#797066;
+    text-align:center;
+    padding:6px;
+    text-decoration:none;
 }
-ul li a:hover,a:active
+#menu ul li a:hover,a:active
 {
-background-color:#9c9084;
+    background-color:#9c9084;
 }
 
-.active
+.active a
 {
     color:#51473d;
     background-color:#eae7d2;
     text-align:center;
     padding:6px;
     text-decoration:none;
+}
+
+div img 
+{
+    float:left;
+    margin-right:5px;
 }
